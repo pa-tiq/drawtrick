@@ -28,8 +28,7 @@ $(function(){
 	
 	socket.on('moving', function (data) {
 		
-		if(! (data.id in clients))
-		{
+		if(! (data.id in clients)){
 			// a new user has come online. create a cursor for them
 			cursors[data.id] = $('<div class="cursor">').appendTo('#cursors');
 		}
@@ -41,8 +40,8 @@ $(function(){
 		});
 		
 		// Is the user drawing?
-		if(data.drawing && clients[data.id])
-		{
+		if(data.drawing && clients[data.id]){
+			
 			// Draw a line on the canvas. clients[data.id] holds
 			// the previous position of this user's mouse pointer
 			

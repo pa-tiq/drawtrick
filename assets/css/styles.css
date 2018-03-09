@@ -2,14 +2,17 @@
 	Simple reset
 --------------------------*/
 
+
 *{
 	margin:0;
 	padding:0;
 }
 
+
 /*-------------------------
 	General Styles
 --------------------------*/
+
 
 html{
 	background:url('../img/bg.png') repeat #e4e4e4;
@@ -85,9 +88,12 @@ h3{
 	background:url('../img/pointer.png') no-repeat -4px 0;
 }
 
+
+
 /*----------------------------
 	The Footer
 -----------------------------*/
+
 
 footer{
 	background-color: #111111;
